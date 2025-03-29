@@ -110,6 +110,45 @@ body.dark-mode .activity-card ul li {
   color: #ccc; /* Adjusted for dark mode readability */
 }
 
+.activity-card .participants {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+body.dark-mode .activity-card .participants {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+
+.activity-card .participants h5 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #0066cc;
+}
+
+body.dark-mode .activity-card .participants h5 {
+  color: #80bfff;
+}
+
+.activity-card .participants ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: circle;
+}
+
+.activity-card .participants ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+body.dark-mode .activity-card .participants ul li {
+  color: #ccc;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
